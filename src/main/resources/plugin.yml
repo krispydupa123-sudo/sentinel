@@ -1,0 +1,16 @@
+name: Sentinel
+version: 1.0.0
+main: pl.sentinel.Sentinel
+api-version: '1.21'
+description: Anty-cheat z automatycznym banem
+commands:
+  sentinel:
+    description: Komendy Sentinel
+    aliases: [ac]
+permissions:
+  sentinel.admin:
+    default: op
+  sentinel.alerts:
+    default: op
+  sentinel.bypass:
+    default: false
